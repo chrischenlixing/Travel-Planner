@@ -20,8 +20,8 @@ const App = () => {
           <Route path="/" exact>
             <Users />
           </Route>
-          <Route path="/:userId/places"exact>
-            <UserPlaces/>
+          <Route path="/:userId/places" exact>
+            <UserPlaces />
           </Route>
           <Route path="/places/new" exact>
             <NewPlace />
@@ -34,4 +34,3 @@ const App = () => {
 };
 
 export default App;
-
